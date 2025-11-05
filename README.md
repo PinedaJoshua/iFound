@@ -35,13 +35,21 @@ It integrates a **gamified system** to encourage user participation, **real-time
 
 ---
 
-## 🏗️ Installation
+## 📱 Screenshots
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Rockzxz/iFound.git
+<p align="center">
+  <img src="assets/screenshots/Onboarding Screen.png" alt="Onboarding Screen" width="200"/>
+   <img src="assets/screenshots/Onboarding Screen-1.png" alt="Onboarding Screen-1" width="200"/>
+   <img src="assets/screenshots/Onboarding Screen-2.png" alt="Onboarding Screen-2" width="200"/>
+   <img src="assets/screenshots/Sign In.png" alt="Sign In Screen" width="200"/>
+   <img src="assets/screenshots/Sign In-1.png" alt="Sign In Screen" width="200"/>
+   <img src="assets/screenshots/Sign Up.png" alt="Sign Up Screen" width="200"/>
+   <img src="assets/screenshots/Home.png" alt="Home Screen" width="200"/>
+   <img src="assets/screenshots/Map.png" alt="Map Screen" width="200"/>
+   <img src="assets/screenshots/Message.png" alt="Chat Screen" width="200"/>
+   <img src="assets/screenshots/Leaderboard.png" alt="Profile Screen" width="200"/>
+</p>
 
-<img width="2590" height="5410" alt="Sign In" src="https://github.com/user-attachments/assets/dc7b0a68-c68c-4d54-8416-acbb0a6e4a55" /><img width="2590" height="5410" alt="Onboarding Screen" src="https://github.com/user-attachments/assets/346a0631-abbf-437e-95f7-d78330e2d06a" /> <img width="2590" height="5410" alt="Onboarding Screen-1" src="https://github.com/user-attachments/assets/a89469e1-3480-4f05-a7cc-9fbbed53f5ae" /><img width="2590" height="5410" alt="Onboarding Screen-2" src="https://github.com/user-attachments/assets/84520e4f-c9e0-4371-b191-52002fd93164" />
-<img width="2590" height="5410" alt="Sign In-1" src="https://github.com/user-attachments/assets/5eb2c7d5-696e-4a10-a493-98fb4f911e9b" />
-<img width="2590" height="5410" alt="Sign Up" src="https://github.com/user-attachments/assets/774033d3-c78b-46c0-b326-55b9f74e6080" />
+
+
 

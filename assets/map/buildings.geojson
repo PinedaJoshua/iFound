@@ -1,0 +1,1001 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-06-05T14:51:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/190362066",
+        "addr:housenumber": "16",
+
+        "amenity": "community_centre",
+        "type": "building",
+        "building": "roof",
+        "community_centre": "events_place",
+        "layer": "1",
+        "name": "Gymnasium",
+        "building:levels": "2",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750819151/gym_1_hd_y0kvfr.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750819150/gym_1_comp_kfvxjw.avif",
+        "accessibility": ["Wheelchair", "Stairs"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6563842, 8.4859631],
+            [124.6565783, 8.4854855],
+            [124.6565912, 8.4854906],
+            [124.65701, 8.4856575],
+            [124.656816, 8.4861351],
+            [124.6564046, 8.4859714],
+            [124.6563842, 8.4859631]
+          ]
+        ]
+      },
+      "id": "way/190362066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/190362153",
+        "addr:housenumber": "23",
+
+        "building": "university",
+        "name": "Learning Resource Center",
+        "building:levels": "5",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750777534/lrc_1_hd_gtuvrv.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750777533/lrc_1_comp_jkm3mb.avif",
+        "accessibility": ["Elevator", "Stairs"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6555761, 8.4866972],
+            [124.6556444, 8.4865109],
+            [124.6556645, 8.4864561],
+            [124.6557859, 8.4864996],
+            [124.6558016, 8.4864566],
+            [124.6559158, 8.4864975],
+            [124.6558992, 8.4865427],
+            [124.6560402, 8.4865932],
+            [124.6559526, 8.4868322],
+            [124.6555761, 8.4866972]
+          ]
+        ]
+      },
+      "id": "way/190362153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/190362204",
+        "addr:housenumber": "24",
+
+        "building": "college",
+        "last_updated": "2025-06-25 14:56:59",
+        "name": "Girl's Trade Building",
+        "building:levels": "1",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755759058/IMG_3905_1080p_comp_small_o6hulm.avif",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755759059/IMG_3905_1080p_bgkzt0.avif",
+        "type": "building"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6554434, 8.4865177],
+            [124.6553916, 8.4866435],
+            [124.6552161, 8.4865785],
+            [124.6554162, 8.4860515],
+            [124.6555943, 8.4861232],
+            [124.6555385, 8.4862585],
+            [124.6554861, 8.4862374],
+            [124.655381, 8.4864925],
+            [124.6554434, 8.4865177]
+          ]
+        ]
+      },
+      "id": "way/190362204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/190362205",
+        "addr:housenumber": "13",
+
+        "building": "construction",
+        "name": "Sports Complex",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750820440/sports_complex_1_hd_trwcmc.avif",
+        "description": "Movable Classrooms are found here.",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750820440/sports_complex_1_hd_trwcmc.avif",
+        "accessibility": ["Wheelchair"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6563074, 8.4864009],
+            [124.6568698, 8.486619],
+            [124.6568137, 8.4867608],
+            [124.6562512, 8.4865427],
+            [124.6563074, 8.4864009]
+          ]
+        ]
+      },
+      "id": "way/190362205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545397",
+        "addr:housenumber": "18",
+
+        "building": "university",
+        "name": "Culinary Building",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755760394/IMG_4034_1080p_comp_small_whrdu8.avif",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755760395/IMG_4034_1080p_x7aml8.avif",
+        "building:levels": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6571068, 8.4852576],
+            [124.6572044, 8.4852656],
+            [124.657178, 8.485533],
+            [124.6570804, 8.485525],
+            [124.6571068, 8.4852576]
+          ]
+        ]
+      },
+      "id": "way/427545397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545398",
+        "addr:housenumber": "19",
+
+        "building": "college",
+        "building:levels": "1",
+        "name": "Science Centrum",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "roof:levels": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6571144, 8.4851934],
+            [124.6571303, 8.4849621],
+            [124.6572257, 8.4849685],
+            [124.6572098, 8.4851998],
+            [124.6571144, 8.4851934]
+          ]
+        ]
+      },
+      "id": "way/427545398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545401",
+        "addr:housenumber": "41",
+
+        "building": "university",
+        "name": "Science Complex",
+        "building:levels": 5,
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750819648/csm_1_hd_hbuh2f.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750819646/csm_1_comp_aotyzu.avif",
+        "accessibility": ["Wheelchair", "Elevator", "Stairs"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.656324, 8.4857917],
+            [124.6558434, 8.4856227],
+            [124.655831, 8.4856573],
+            [124.65574, 8.4856254],
+            [124.6557435, 8.4856156],
+            [124.655721, 8.4856077],
+            [124.6557422, 8.4855487],
+            [124.65576, 8.4855549],
+            [124.6558061, 8.4854267],
+            [124.6563824, 8.4856293],
+            [124.6563735, 8.4856539],
+            [124.656324, 8.4857917]
+          ]
+        ],
+        "centroid": [124.65616, 8.485645]
+      },
+      "id": "way/427545401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545403",
+        "addr:housenumber": "14",
+
+        "building": "university",
+        "building:levels": "2",
+        "name": "Senior High School Building",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750820514/shs_1_hd_pchzcm.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750820512/shs_1_comp_r2usrd.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6564573, 8.4862715],
+            [124.6564809, 8.4862123],
+            [124.6565035, 8.4861547],
+            [124.6566365, 8.4862057],
+            [124.656774, 8.4862592],
+            [124.6568543, 8.4860575],
+            [124.6569736, 8.486104],
+            [124.6568465, 8.4864231],
+            [124.6564573, 8.4862715]
+          ]
+        ],
+        "centroid": [124.656729, 8.486324]
+      },
+      "id": "way/427545403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545405",
+        "addr:housenumber": "15",
+
+        "type": "building",
+        "name": "Gymnasium Lobby",
+        "building:levels": "1",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750821418/gym_lobby_1_hd_h1fpiq.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750821417/gym_lobby_1_comp_qc22nj.avif",
+        "accessibility": ["Stairs"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6564089, 8.486024],
+            [124.6566571, 8.4861172],
+            [124.6566298, 8.4861885],
+            [124.6564968, 8.4861375],
+            [124.6564742, 8.4861951],
+            [124.6563597, 8.4861521],
+            [124.6564089, 8.486024]
+          ]
+        ]
+      },
+      "id": "way/427545405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545406",
+        "addr:housenumber": "9",
+
+        "building": "college",
+        "building:levels": "4",
+        "name": "Information and Communications Technology Building",
+        "description": "ICT, CITC",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750765872/citc_1_hd_qxcawh.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750765871/citc_1_comp_umshsv.avif",
+        "accessibility": ["Wheelchair", "Elevator", "Stairs"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6575703, 8.4859985],
+            [124.6576318, 8.4860219],
+            [124.6575938, 8.4861044],
+            [124.6575473, 8.4861709],
+            [124.6574984, 8.4862301],
+            [124.6574566, 8.4862748],
+            [124.6573843, 8.4863301],
+            [124.6573207, 8.4863742],
+            [124.6572468, 8.4864112],
+            [124.6571751, 8.4864373],
+            [124.6571115, 8.4863088],
+            [124.6571766, 8.4862784],
+            [124.6572395, 8.4862473],
+            [124.6572952, 8.4862133],
+            [124.6573426, 8.4861793],
+            [124.6573803, 8.4861438],
+            [124.6574178, 8.4861013],
+            [124.6574427, 8.4860713],
+            [124.6574649, 8.4860413],
+            [124.6574937, 8.4860008],
+            [124.6574885, 8.4859882],
+            [124.6574779, 8.4859717],
+            [124.6574751, 8.4859575],
+            [124.6574747, 8.4859427],
+            [124.6574786, 8.4859259],
+            [124.6574908, 8.485908],
+            [124.6575053, 8.4858946],
+            [124.657526, 8.4858869],
+            [124.6575495, 8.4858863],
+            [124.6575684, 8.4858944],
+            [124.6575856, 8.4859079],
+            [124.6575948, 8.4859179],
+            [124.6576, 8.4859417],
+            [124.6575982, 8.4859644],
+            [124.6575893, 8.4859786],
+            [124.6575818, 8.485986],
+            [124.6575728, 8.4859923],
+            [124.6575703, 8.4859985]
+          ]
+        ],
+        "centroid": [124.657359, 8.486292]
+      },
+      "id": "way/427545406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545407",
+        "addr:housenumber": "10",
+
+        "building": "office",
+        "name": "Administration Building",
+        "office": "educational_institution",
+        "type": "building",
+        "building:levels": "4",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750767733/admin_1_hd_tkt9zg.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750767730/admin_1_comp_tv7a3k.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6573866, 8.48596],
+            [124.6571955, 8.4860843],
+            [124.6571734, 8.4860528],
+            [124.6571619, 8.4860589],
+            [124.6571384, 8.4860247],
+            [124.6571607, 8.4860064],
+            [124.6571574, 8.4859976],
+            [124.6571787, 8.4859784],
+            [124.6572097, 8.4859547],
+            [124.657245, 8.4859302],
+            [124.6572884, 8.4859084],
+            [124.6573201, 8.4858951],
+            [124.657361, 8.4858795],
+            [124.6573884, 8.4859215],
+            [124.6573698, 8.4859329],
+            [124.6573866, 8.48596]
+          ]
+        ]
+      },
+      "id": "way/427545407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545408",
+        "addr:housenumber": "5",
+
+        "building": "college",
+        "last_updated": "2025-06-25 14:56:59",
+        "name": "Old Civil Engineering Building",
+        "building:levels": "1",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755760379/IMG_4028_1080p_sw9asm.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755760376/IMG_4028_1080p_comp_small_tsqfgt.avif",
+        "type": "building"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6572289, 8.4857429],
+            [124.6572449, 8.4856155],
+            [124.6580329, 8.4857123],
+            [124.6580169, 8.4858397],
+            [124.6572289, 8.4857429]
+          ]
+        ]
+      },
+      "id": "way/427545408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545410",
+        "addr:housenumber": "1",
+
+        "building": "college",
+        "name": "Arts and Culture Building",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "building:levels": "?"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6584179, 8.4862709],
+            [124.6584345, 8.4861772],
+            [124.6585796, 8.4862024],
+            [124.658563, 8.486296],
+            [124.6584179, 8.4862709]
+          ]
+        ]
+      },
+      "id": "way/427545410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545411",
+        "addr:housenumber": "2",
+
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "name": "Guidance and Testing Center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6582096, 8.4862298],
+            [124.6583948, 8.486262],
+            [124.6583776, 8.4863592],
+            [124.6581923, 8.486327],
+            [124.6582096, 8.4862298]
+          ]
+        ]
+      },
+      "id": "way/427545411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550449",
+        "addr:housenumber": "28",
+
+        "building": "college",
+        "name": "Old Science Building",
+        "building:levels": "1",
+        "last_updated": "2025-06-25 14:56:59",
+        "type": "building",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755767082/IMG_3889_1080p_oqr6jh.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755767079/IMG_3889_1080p_comp_small_ipk90e.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6562135, 8.486103],
+            [124.655533, 8.4858563],
+            [124.655632, 8.4855889],
+            [124.6557944, 8.4856478],
+            [124.655754, 8.4857568],
+            [124.6562721, 8.4859446],
+            [124.6562135, 8.486103]
+          ]
+        ]
+      },
+      "id": "way/427550449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550451",
+        "addr:housenumber": "25",
+
+        "building": "college",
+        "name": "Food Innovation Center",
+        "building:levels": "2",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755766361/IMG_3903_1080p_n7ytkn.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755766362/IMG_3903_1080p_comp_tdcikd.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.656009, 8.4863051],
+            [124.6559609, 8.4864284],
+            [124.6556383, 8.4863054],
+            [124.6556864, 8.486182],
+            [124.656009, 8.4863051]
+          ]
+        ]
+      },
+      "id": "way/427550451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550452",
+        "addr:housenumber": "26",
+
+        "building": "university",
+        "name": "Food Innovation Center",
+        "last_updated": "2025-06-25 14:56:59",
+        "type": "building",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750767283/fic_1_hd_evvxwu.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750767282/fic_1_comp_jipyqb.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6559609, 8.4864284],
+            [124.656009, 8.4863051],
+            [124.6562376, 8.4863918],
+            [124.6561899, 8.4865149],
+            [124.6561005, 8.4864811],
+            [124.6560846, 8.486522],
+            [124.6560089, 8.4864934],
+            [124.6560247, 8.4864527],
+            [124.6559609, 8.4864284]
+          ]
+        ]
+      },
+      "id": "way/427550452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550454",
+        "addr:housenumber": "27",
+
+        "amenity": "clinic",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "name": "Medical Building",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755759190/IMG_3901_1080p_comp_small_dhc54i.avif",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755759236/IMG_3901_1080p_e91nsp.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.655536, 8.485879],
+            [124.6555, 8.485972],
+            [124.655742, 8.486065],
+            [124.655777, 8.485971]
+          ]
+        ]
+      },
+      "id": "way/427550454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550455",
+        "addr:housenumber": "36",
+
+        "building": "college",
+        "name": "Old Student Center",
+        "last_updated": "2025-06-25 14:56:59",
+        "type": "building",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755766056/IMG_3909_1080p_vpok7x.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755766053/IMG_3909_1080p_comp_small_grqwos.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6551742, 8.4863002],
+            [124.6550484, 8.4862499],
+            [124.6551824, 8.4859222],
+            [124.6553082, 8.4859725],
+            [124.6551742, 8.4863002]
+          ]
+        ]
+      },
+      "id": "way/427550455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550456",
+        "addr:housenumber": "35",
+
+        "building": "college",
+        "name": "Old Education Building",
+        "last_updated": "2025-06-25 14:56:59",
+        "type": "building"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6553058, 8.4859593],
+            [124.6551828, 8.4859078],
+            [124.6553093, 8.4856122],
+            [124.6554323, 8.4856637],
+            [124.6553058, 8.4859593]
+          ]
+        ]
+      },
+      "id": "way/427550456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550457",
+        "addr:housenumber": 45,
+
+        "building": "college",
+        "name": "FAB LAB building",
+        "description": "Metals & Engineering Innovation Center",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "building:levels": 1,
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755763108/IMG_3914_1080p_hi9vek.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755763107/IMG_3914_1080p_comp_small_qjzdqc.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.654993, 8.4866563],
+            [124.6548173, 8.486586],
+            [124.6549341, 8.4863006],
+            [124.6551098, 8.4863709],
+            [124.654993, 8.4866563]
+          ]
+        ]
+      },
+      "id": "way/427550457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550464",
+        "addr:housename": "CEA Building",
+        "addr:housenumber": "42",
+
+        "building": "college",
+        "name": "Engineering Complex I",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "building:levels": 6,
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755760412/IMG_4040_1080p_huxwef.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755760409/IMG_4040_1080p_comp_small_bidzvy.avif",
+        "accessibility": ["Wheelchair", "Elevator", "Stairs"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6572294, 8.4846859],
+            [124.6572289, 8.4848968],
+            [124.6570897, 8.4849226],
+            [124.6569618, 8.4849445],
+            [124.6569359, 8.4848203],
+            [124.6569598, 8.4848147],
+            [124.6569422, 8.4847409],
+            [124.6572294, 8.4846859]
+          ]
+        ]
+      },
+      "id": "way/427550464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550465",
+        "addr:housenumber": "43",
+
+        "building": "college",
+        "name": "Engineering Complex II",
+        "type": "building",
+        "building:levels": 8,
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750776559/cea_2_hd_yltqtk.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750776558/cea_2_comp_lbzx2w.avif",
+        "accessibility": ["Wheelchair", "Elevator", "Stairs"],
+        "last_updated": "2025-06-25 14:56:59"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6569359, 8.4848203],
+            [124.6569618, 8.4849445],
+            [124.6569506, 8.4849764],
+            [124.6567958, 8.4849332],
+            [124.6566934, 8.4849046],
+            [124.656685, 8.4849334],
+            [124.6566483, 8.4849207],
+            [124.6566189, 8.4849043],
+            [124.6565966, 8.484882],
+            [124.6565872, 8.4848566],
+            [124.6565877, 8.4848268],
+            [124.656595, 8.4848029],
+            [124.6566082, 8.4847827],
+            [124.6566279, 8.4847723],
+            [124.6566615, 8.4847656],
+            [124.6567048, 8.4847668],
+            [124.6567513, 8.4847748],
+            [124.6568398, 8.4847958],
+            [124.6569359, 8.4848203]
+          ]
+        ]
+      },
+      "id": "way/427550465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550466",
+        "addr:housenumber": "20",
+
+        "amenity": "food_court",
+        "building": "college",
+        "name": "Cafeteria",
+        "building:levels": "1",
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750765871/cafet_1_hd_qx5ly3.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750765871/cafet_1_comp_mugtks.avif",
+        "accessibility": ["Wheelchair"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6567707, 8.4850205],
+            [124.6568915, 8.4850633],
+            [124.6569176, 8.4850725],
+            [124.6568904, 8.4851477],
+            [124.6567982, 8.4854024],
+            [124.6567669, 8.4853913],
+            [124.6566513, 8.4853504],
+            [124.6567707, 8.4850205]
+          ]
+        ]
+      },
+      "id": "way/427550466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1182410487",
+        "addr:housenumber": "?",
+
+        "type": "building",
+        "name": "Unfinished Building",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755768120/IMG_4045_1080p_y0gwxr.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755768118/IMG_4045_1080p_comp_small_nqxqus.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6559981, 8.485135],
+            [124.6559643, 8.4849648],
+            [124.6562174, 8.4849121],
+            [124.6561945, 8.4849822],
+            [124.6561317, 8.4850609],
+            [124.6560669, 8.4850983],
+            [124.6559981, 8.485135]
+          ]
+        ]
+      },
+      "id": "way/1182410487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1182410488",
+        "addr:housenumber": "?",
+
+        "type": "building",
+        "last_updated": "2025-06-25 14:56:59",
+        "name": "Unfinished Building",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755768120/IMG_4045_1080p_y0gwxr.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1755768118/IMG_4045_1080p_comp_small_nqxqus.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6556559, 8.4851437],
+            [124.6557754, 8.4850629],
+            [124.6558982, 8.4850289],
+            [124.6559279, 8.4851557],
+            [124.6557707, 8.4851938],
+            [124.6556742, 8.4851884],
+            [124.6556559, 8.4851437]
+          ]
+        ]
+      },
+      "id": "way/1182410488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/868872754",
+        "type": "building",
+        "name": "Unknown Building",
+
+        "addr:housenumber": "?",
+        "last_updated": "2025-06-25 14:56:59"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6552934, 8.4855315],
+            [124.6553471, 8.4854265],
+            [124.6555374, 8.4854934],
+            [124.6554697, 8.4856309],
+            [124.6552934, 8.4855315]
+          ]
+        ]
+      },
+      "id": "way/868872754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550460",
+        "building": "college",
+        "name": "Technology Building",
+
+        "addr:housenumber": "47",
+        "type": "building",
+        "building:levels": 4,
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750776607/cot_1_hd_kdtpll.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1750776605/cot_1_comp_syqzit.avif",
+        "accessibility": ["Stairs"],
+        "last_updated": "2025-06-25 14:56:59"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6554335, 8.4869859],
+            [124.655418, 8.4870208],
+            [124.655497, 8.4870486],
+            [124.6555839, 8.4868222],
+            [124.6551499, 8.4866555],
+            [124.6550759, 8.4868565],
+            [124.6554335, 8.4869859]
+          ]
+        ]
+      },
+      "id": "way/427550460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427550461",
+        "building": "college",
+        "name": "Sump pit",
+
+        "addr:housenumber": "52",
+        "building:levels": "1",
+        "last_updated": "2025-06-25 14:56:59",
+        "type": "building"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6549774, 8.4868936],
+            [124.6547823, 8.4868264],
+            [124.6548245, 8.4867066],
+            [124.6550196, 8.4867738],
+            [124.6549774, 8.4868936]
+          ]
+        ]
+      },
+      "id": "way/427550461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/427545409",
+        "type": "building",
+        "layer": "-1",
+        "name": "SPED Center",
+
+        "addr:housenumber": "6",
+        "last_updated": "2025-06-25 14:56:59"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6582367, 8.4858797],
+            [124.6583463, 8.4858773],
+            [124.6583477, 8.4859392],
+            [124.6582821, 8.4859407],
+            [124.6582374, 8.4859125],
+            [124.6582367, 8.4858797]
+          ]
+        ]
+      },
+      "id": "way/427545409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1136349250",
+        "building": "college",
+        "name": "College of Medicine",
+        "addr:housenumber": "3",
+        "building:levels": "2",
+        "last_updated": "2025-10-30 20:38:45",
+        "type": "building",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1761827751/20251030_142147_1920x1080_jyppfi.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1761827758/20251030_142147_preview_128x128_eg5krh.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6580369, 8.4862201],
+            [124.6580584, 8.4859052],
+            [124.6585924, 8.4859407],
+            [124.658583, 8.4860793],
+            [124.6581996, 8.4860537],
+            [124.6581875, 8.4862301],
+            [124.6580369, 8.4862201]
+          ]
+        ]
+      },
+      "id": "way/1136349250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1410492261",
+        "construction": "building",
+        "type": "building",
+        "name": "Dormitory Building",
+        "landuse": "construction",
+        "addr:housenumber": "51",
+        "description": "This building is under construction and is intended to be a dormitory.",
+        "last_updated": "2025-06-25 14:56:59",
+        "note": "This might be the dormitory building.",
+        "image": "https://res.cloudinary.com/dosy82nwb/image/upload/v1752112178/dorm_1_hd_emk189.avif",
+        "image_compressed": "https://res.cloudinary.com/dosy82nwb/image/upload/v1752112177/dorm_1_comp_uiomwf.avif"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.6562623, 8.4871544],
+            [124.6562972, 8.4872406],
+            [124.6560236, 8.487368],
+            [124.6560263, 8.4875298],
+            [124.655912, 8.4875341],
+            [124.6559026, 8.4873199],
+            [124.6562623, 8.4871544]
+          ]
+        ]
+      },
+      "id": "way/1410492261"
+    }
+  ]
+}

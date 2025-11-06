@@ -6,6 +6,7 @@ import 'package:flutter_application_1/theme/app_theme.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_application_1/widgets/post_card.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -17,6 +18,30 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String _selectedFilter = 'All';
   final List<String> _filters = ['All', 'Lost', 'Found', 'Gadgets', 'Wallets', 'IDs', 'Others'];
+
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
+// 🔴 Stream to count unread messages for the current user
+Stream<int> _unreadMessageCount() {
+  final currentUser = _auth.currentUser;
+  if (currentUser == null) return const Stream.empty();
+
+  return FirebaseFirestore.instance
+      .collection('chat_rooms') // 👈 make sure this matches your collection name
+      .snapshots()
+      .map((snapshot) {
+    int totalUnread = 0;
+    for (var doc in snapshot.docs) {
+      final data = doc.data();
+      final int count = data['unreadCount_${currentUser.uid}'] ?? 0;
+      final List<dynamic> hiddenFor = data['hiddenFor'] ?? [];
+      if (!hiddenFor.contains(currentUser.uid)) {
+        totalUnread += count;
+      }
+    }
+    return totalUnread;
+  });
+}
 
   AppBar _buildAppBar(BuildContext context) {
     return AppBar(
@@ -31,14 +56,50 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       actions: [
+        StreamBuilder<int>(
+  stream: _unreadMessageCount(),
+  builder: (context, snapshot) {
+    int unreadCount = snapshot.data ?? 0;
+
+    return Stack(
+      alignment: Alignment.center,
+      children: [
         IconButton(
-          icon: const Icon(Icons.chat_bubble_outline, color: AppTheme.primaryColor),
+          icon: const Icon(Icons.chat_bubble_outline,
+              color: AppTheme.primaryColor),
           onPressed: () {
             Navigator.of(context).push(
-              MaterialPageRoute(builder: (context) => const ChatListScreen()),
+              MaterialPageRoute(
+                  builder: (context) => const ChatListScreen()),
             );
           },
         ),
+        if (unreadCount > 0)
+          Positioned(
+            right: 8,
+            top: 10,
+            child: Container(
+              padding: const EdgeInsets.all(4),
+              decoration: const BoxDecoration(
+                color: Colors.red,
+                shape: BoxShape.circle,
+              ),
+              constraints: const BoxConstraints(minWidth: 18, minHeight: 18),
+              child: Text(
+                unreadCount.toString(),
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 10,
+                  fontWeight: FontWeight.bold,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+      ],
+    );
+  },
+),
         IconButton(
           icon: const Icon(Icons.notifications_none, color: AppTheme.primaryColor),
           onPressed: () {

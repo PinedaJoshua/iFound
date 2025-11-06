@@ -17,6 +17,83 @@ class _LoginScreenState extends State<LoginScreen> {
   bool _isLoading = false;
   String _errorMessage = '';
 
+  void _showForgotPasswordDialog() {
+  // Controller for the email field in the dialog
+  final dialogEmailController = TextEditingController(text: _emailController.text);
+  showDialog(
+    context: context,
+    builder: (dialogContext) {
+      return AlertDialog(
+        title: const Text('Forgot Password'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Make dialog small
+          children: [
+            const Text(
+              'Enter your email and we will send you a password reset link.',
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 16),
+            TextField(
+              controller: dialogEmailController,
+              decoration: const InputDecoration(labelText: 'Email'),
+              keyboardType: TextInputType.emailAddress,
+            ),
+          ],
+        ),
+        actions: [
+          // Cancel button
+          TextButton(
+            onPressed: () {
+              Navigator.of(dialogContext).pop();
+            },
+            child: const Text('Cancel'),
+          ),
+
+          // Send button
+          ElevatedButton(
+            onPressed: () async {
+              final email = dialogEmailController.text.trim();
+              if (email.isEmpty) {
+                // You could show an error in the dialog
+                return;
+              }
+
+              // Close the dialog
+              Navigator.of(dialogContext).pop();
+              
+              try {
+                // Call the auth service
+                final authService = AuthService();
+                await authService.sendPasswordResetEmail(email);
+
+                if (!context.mounted) return;
+
+                // Show success snackbar
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('Password reset link sent! Check your email.'),
+                    backgroundColor: Colors.green,
+                  ),
+                );
+              } catch (e) {
+                if (!context.mounted) return;
+                // Show error snackbar
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(e.toString().replaceFirst('Exception: ', '')),
+                    backgroundColor: Colors.red,
+                  ),
+                );
+              }
+            },
+            child: const Text('Send'),
+          ),
+        ],
+      );
+    },
+  );
+}
+
   // Sign in method
   void _signIn() async {
     setState(() {
@@ -125,9 +202,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(
-                    onPressed: () {
-                      // TODO: Implement forgot password logic
-                    },
+                    onPressed: _showForgotPasswordDialog, // <-- CHANGE THIS,
                     child: const Text(
                       'Forgot Password?',
                       style: TextStyle(color: AppTheme.primaryColor),

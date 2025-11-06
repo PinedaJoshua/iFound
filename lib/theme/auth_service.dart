@@ -2,6 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart'; // <-- THIS LINE IS CORRECT
+import 'package:firebase_auth/firebase_auth.dart';
+
 
 class AuthService extends ChangeNotifier {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
@@ -111,5 +113,13 @@ class AuthService extends ChangeNotifier {
   // --- Get current user ---
   User? getCurrentUser() {
     return _firebaseAuth.currentUser;
+  }
+  // ADD THIS NEW METHOD
+  Future<void> sendPasswordResetEmail(String email) async {
+    try {
+      await _firebaseAuth.sendPasswordResetEmail(email: email);
+    } on FirebaseAuthException catch (e) {
+      throw Exception(e.message);
+    }
   }
 }
